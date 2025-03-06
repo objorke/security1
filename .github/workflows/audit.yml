@@ -1,9 +1,11 @@
-on: [push, pull_request]
+on: 
+  push:
+    branches: [main]
 
 jobs:
   pip-audit:
+    runs-on: ubuntu-latest
     steps:
       - uses: pypa/gh-action-pip-audit@v1.0.0
         with:
-          inputs: requirements.txt
-          directory: project1
+          inputs: project1/requirements.txt
