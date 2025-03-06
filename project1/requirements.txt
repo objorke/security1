@@ -1,3 +1,2 @@
-ray==2.42.0
-uniapi==1.0.7
+uniapi==1.0.6
 django==5.0.9
