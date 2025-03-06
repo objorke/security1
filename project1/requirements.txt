@@ -1,2 +1,2 @@
 uniapi==1.0.6
-django==5.0.9
+django==5.0.11
