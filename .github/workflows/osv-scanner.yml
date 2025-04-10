@@ -16,6 +16,7 @@ jobs:
   license-scan:
     uses: "google/osv-scanner-action/.github/workflows/osv-scanner-reusable-pr.yml@v2.0.0"
     with:
+      results-file-name: license-results.sarif
       scan-args: |-
         --licenses="MIT,BSD-3-Clause"
         ./
